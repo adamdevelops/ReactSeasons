@@ -14,7 +14,7 @@ class App extends React.Component {
         this.setState({ lat: position.coords.latitude });
       },
       err => {
-        this.setState({ errorMessage: err.message})
+        this.setState({ errorMessage: err.message });
       }
 
     );
